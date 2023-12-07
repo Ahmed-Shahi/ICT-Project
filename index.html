@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Automobile Showcase</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Automobile Showcase</h1>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <h2>About the Automobile Industry</h2>
+      <p id="p1">Welcome to the dynamic world of automobiles, where innovation meets the open road! The automobile
+        industry is a global powerhouse, driving progress and shaping the way we live, work, and play. As technology
+        continues to evolve, so does the automotive landscape, with a constant influx of cutting-edge advancements.
+
+        At the heart of this industry is a commitment to engineering excellence, safety, and sustainability. From sleek
+        electric vehicles that redefine eco-friendly commuting to powerful performance cars that ignite the thrill of
+        the drive, there's a vehicle for every lifestyle and preference.</p>
+    </div>
+  </section>
+
+  <section id="cards">
+    <div class="container">
+      <div class="card">
+        <img
+          src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Nissan/X-Trail/3372/1666087743726/front-left-side-47.jpg"
+          alt="Car 1">
+        <h3>Model XYZ</h3>
+        <p>Description of the car. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Price: $50,000</p>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://cdn.jdpower.com/JDPower/legacy_files/pictures/j/jdpower/1820/8192bce97f051580ec23ef11b1cf46dbx.jpg"
+          alt="Car 2">
+        <h3>Model ABC</h3>
+        <p>Description of the car. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Price: $45,000</p>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://helios-i.mashable.com/imagery/articles/06xyXtDJthtggwZaVOAOrju/hero-image.fill.size_1248x702.v1638211998.jpg"
+          alt="Car 3">
+        <h3>Model 123</h3>
+        <p>Description of the car. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Price: $55,000</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="accountNumber">Account Number:</label>
+        <input type="text" id="accountNumber" name="accountNumber" required>
+
+        <label for="deliveryDate">Date of Delivery:</label>
+        <input type="date" id="deliveryDate" name="deliveryDate" required>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required>
+
+        <label for="model">Car Model:</label>
+        <input type="text" id="model" name="model" required>
+
+        <label for="company">Company Name:</label>
+        <input type="text" id="company" name="company" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+        <button type="submit" onclick="btn()">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- <footer>
+    <div class="container">
+      <p>&copy; 2023 Automobile Showcase</p>
+    </div>
+  </footer> -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
