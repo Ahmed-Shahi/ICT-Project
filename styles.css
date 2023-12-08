@@ -1,14 +1,28 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #000000, #333333);
-    color: black;
+    /* background-color: #222222; */
+    background-image: url('https://wallpapers.com/images/hd/black-car-4k-8iilwvng2997orpp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}  
+#cards{
+    background-color: #222222 !important;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
+#about{
+    background-color: rgba(46, 45, 45,0.6);
+
+}
+#about1{
+    background-color: rgba(15, 14, 14, 0);
+
 }
 #p1{
     color: white;
@@ -53,6 +67,7 @@ nav a {
 
 section {
     background: #444444;
+    
 }
 
 #cards {
